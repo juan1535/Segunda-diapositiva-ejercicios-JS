@@ -1,8 +1,29 @@
 {
-    "biblioteca": 
+    "biblioteca": [
         {
             "titulo": "Alicia en el país de las maravillas.",
-            "descripcion": "Es un libro de fantasía de literatura universal que narra la travecia de Alicia, una pequeña niña que al perseguir a un conejo y caer por lo que pensaba era su madrigera se ve en barcada en diversas situaciones las cuales la harán conocer a seres de aspectos muy interesantes con personalidades que rozan lo desconcertante",
+            "descripcion": "Es un libro de fantasía de literatura universal que narra la travesía de Alicia, una pequeña niña que al perseguir a un conejo y caer por lo que pensaba era su madriguera se ve embarcada en diversas situaciones que la harán conocer a seres de aspectos muy interesantes con personalidades que rozan lo desconcertante.",
             "id": 73463
+        },
+        {
+            "titulo": "1984",
+            "descripcion": "Una novela distópica escrita por George Orwell que narra una sociedad totalitaria controlada por el Gran Hermano, donde la libertad individual está completamente restringida y el pensamiento independiente es perseguido.",
+            "id": 12345
+        },
+        {
+            "titulo": "Cien años de soledad",
+            "descripcion": "Una obra maestra de Gabriel García Márquez que sigue la historia de la familia Buendía en el pueblo ficticio de Macondo, explorando temas como el amor, la soledad y el paso del tiempo.",
+            "id": 67890
+        },
+        {
+            "titulo": "La llamada de Cthulhu",
+            "descripcion": "Un relato de horror cósmico escrito por H.P. Lovecraft que describe los terrores insondables de criaturas ancestrales, siendo Cthulhu el centro de un misterio que amenaza la cordura de quienes lo investigan.",
+            "id": 54321
+        },
+        {
+            "titulo": "Don Quijote de la Mancha",
+            "descripcion": "Escrito por Miguel de Cervantes, este libro relata las aventuras del caballero Don Quijote y su fiel escudero Sancho Panza, en una sátira de las novelas de caballería y un profundo análisis de la condición humana.",
+            "id": 98765
         }
+    ]
 }

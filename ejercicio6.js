@@ -2,26 +2,42 @@
 // Por cada elemento del array ejecute el callback pasándole  dicho elemento como argumento
 // Devuelva true si al menos una de las llamadas al callback devolvió true.
 
-function some(array, callback) {    // Se crea una función con dos parametros
-    for (let i = 0; i < array.length; i++) {    // Un ciclo repetitivo para evaluar cada posición
-        if (callback(array[i])) {   // Pasa por cada posición del array y el callback se utiliza para comparar
-            return true;    // Si se cumple por lo menos una retorna en true
+
+let number = [];
+let numbersitos;
+
+function esPrimo(num) {
+    if (num <= 1) {
+        return false;
+    }
+    for (let i = 2; i < num; i++) {
+        if (num % i === 0) {
+            return false;
         }
     }
-    return false;       // Sino sale del ciclo y la condición y retorna en false
-}                          
-
-function comparation(num) {     // Se crea una función y un parametro que se utilizará para 
-                                // una operación logica, al ser menor a 10 devuelve true
-    return num < 10;            
+    return true
 }
 
-let numeros = [1, 29, 90, 70];  // Devuelve true porque está el 1 y: 1 < 10
+while (true) {
+    numbersitos = parseInt(prompt("Debe ingresar números positivos (Si desea terminar oprima 0)"));
 
-console.log(some(numeros,comparation)); /**
-                                            Se llama la función SOME y dos argumentos Some recorre cada elemento
-                                            del array y ejecuta comparation.
+    if (numbersitos === 0) {
+        break;
+    } else if (numbersitos > 0) {
+        number.push(numbersitos);
+    } else {
+        alert("Ingresó un número negativo");
+    }
+}
 
-                                            Revisa cada número y devuelve true si
-                                            al menos un número es menor a 10.
- */                                         
+console.log("Números ingresados: ", number);
+
+const tienePrimos = number.some(esPrimo);
+
+if (tienePrimos) {
+    console.log("Ingresó números primos.");
+    const numerosPrimos = number.filter(esPrimo);
+    console.log("Números primos: ", numerosPrimos);
+} else {
+    console.log("No ingresó números primos.");
+}

@@ -1,14 +1,9 @@
 /**
  * Crear una función MAP que acepte un array y un callback y que:
- * 
  * Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.
- * 
  * Obtenga el resultado.
- * 
  * Lo pushee a un nuevo array.
- * 
  * Devuelva el array final con el resultado de cada una de las llamadas al callback. */
-
 
 let numeros = [10, 20, 30, 40, 50];  // Se crea un array con el nombre números.
 
