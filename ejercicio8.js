@@ -4,10 +4,21 @@
     • sí ningún callback devuelve true, devuelva undefined
  */
 
-    const array1 = [5, 12, 8, 130, 44];
 
-    const isLargeNumber = (element) => element > 13;
-    
-    console.log(array1.findIndex(isLargeNumber));
-    // Expected output: 3
-    
+function funcionINDEX(array, callback) {
+
+   array = array.findIndex((manga) =>{ // findIndex se utiliza para recorrer el array, si encuentra la palabra (o lo que busca)
+                                       // Devuelve la posición
+      return callback(manga);
+   });
+   console.log(array);
+   return array;
+}
+
+function encontrar(manga){
+   return manga === 'dragon ball' ; // Si findIndex no encuentra coincidencia alguna mostrará: "-1"
+};
+
+const array = ["tokyo ghoul", "tokyo revenger", "death parade", "one piece", "dragon ball", "Naruto", "haikyu", "one puch man"];
+
+funcionINDEX(array, encontrar);
