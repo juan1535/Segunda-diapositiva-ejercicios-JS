@@ -1,0 +1,22 @@
+{
+  "name": "segunda-diapositiva-ejercicios-js",
+  "version": "1.0.0",
+  "main": "\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[9",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan1535/Segunda-diapositiva-ejercicios-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan1535/Segunda-diapositiva-ejercicios-JS/issues"
+  },
+  "homepage": "https://github.com/juan1535/Segunda-diapositiva-ejercicios-JS#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
